@@ -23,7 +23,6 @@ const page = async ({}) => {
         -1
       )
 
-      // Check if we got a valid response
       if (!lastMessagesRaw || lastMessagesRaw.length === 0) {
         return {
           ...friend,
